@@ -41,10 +41,10 @@
     <finalName>new-maven</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
-      <plugin>
+      	<plugin>
             <groupId>org.apache.tomcat.maven</groupId>
-            <artifactId>tomcat7-maven-plugin</artifactId>
-            <version>2.2</version>
+    		<artifactId>tomcat8-maven-plugin</artifactId>
+    		<version>2.2</version>
          </plugin>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
